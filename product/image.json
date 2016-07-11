@@ -1,0 +1,48 @@
+{
+    "email": "YOUR@EMAIL",
+    "credit": "999.00",
+    "error": false,
+    "product": {
+        "id": 999,
+        "purchase": {
+            "date": "2015-05-10 13:03:50",
+            "credit": "1.00"
+            //"credit": "0.00" // already bought
+        },
+        "premium": false,
+        "brand": {
+            "id": 999,
+            "name": "nom-de-la-marque",
+            "title_fr": "Nom de la marque"
+        },
+        "code": "1234567890123",
+        "additional_code": [
+            "1234567890123",
+            "1234567890123",
+            "1234567890123",
+            "...",
+            "..."
+        ],
+        "title_fr": "Fiche produit n°1",
+        "images": [
+            "https://www.labodata/api/v1/DL_TOKEN/image/FILENAME.jpg",
+            "https://www.labodata/api/v1/DL_TOKEN/image/FILENAME.jpg",
+            "https://www.labodata/api/v1/DL_TOKEN/image/FILENAME.png"
+        ],
+        "version": "2015-06-01 13:43:20",
+
+        //"archives": [
+        //    {
+        //        "code": "1234567890123",
+        //        "title_fr": "Ma fiche produit n°1",
+        //        "images": [
+        //            "https://www.labodata/api/v1/DL_TOKEN/image/FILENAME.jpg",
+        //            "https://www.labodata/api/v1/DL_TOKEN/image/FILENAME.jpg",
+        //            "https://www.labodata/api/v1/DL_TOKEN/image/FILENAME.jpg"
+        //        ],
+        //        "version": "2015-01-01 12:00:00"
+        //    },
+        //    { }
+        //]
+    }
+}

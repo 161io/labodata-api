@@ -1,0 +1,49 @@
+{
+    "email": "YOUR@EMAIL",
+    "credit": "999.00",
+    "error": false,
+    "categories": {
+        "nature": {
+            "name": "nature",
+            "title_fr": "Nature du produit",
+            "items": [
+                {
+                    "id": 999,
+                    "name": "aliment",
+                    "title_fr": "Aliment"
+                }, {
+                    "id": 999,
+                    "name": "bain-de-bouche",
+                    "title_fr": "Bain de bouche"
+                },
+                { },
+                { }
+            ]
+        },
+        "packaging": {
+            "name": "packaging",
+            "title_fr": "Conditionnement",
+            "items": [ ]
+        },
+        "specificity": {
+            "name": "specificity",
+            "title_fr": "Spécificité",
+            "items": [ ]
+        },
+        "label": {
+            "name": "label",
+            "title_fr": "Label",
+            "items": [ ]
+        },
+        "indication": {
+            "name": "indication",
+            "title_fr": "Indication / Contre-indication",
+            "items": [ ]
+        },
+        "active_ingredient": {
+            "name": "active_ingredient ",
+            "title_fr": "Principe actif",
+            "items": [ ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "email": "YOUR@EMAIL",
+    "error": {
+        "code": 100,
+        "message": "L'identification a échoué"
+    }
+}

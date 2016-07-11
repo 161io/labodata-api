@@ -1,0 +1,82 @@
+{
+    "email": "YOUR@EMAIL",
+    "credit": "999.00",
+    "error": false,
+    "product": {
+        "id": 999,
+        "purchase": {
+            "date": "2015-05-10 13:03:50",
+            "credit": "1.00"
+            //"credit": "0.00" // already bought
+        },
+        "premium": false,
+        "brand": {
+            "id": 999,
+            "name": "nom-de-la-marque",
+            "title_fr": "Nom de la marque"
+        },
+        "code": "1234567890123",
+        "additional_code": [
+            "1234567890123",
+            "1234567890123",
+            "1234567890123",
+            "...",
+            "..."
+        ],
+        "sale_start": "2015-01-02",
+        "sale_end": "2018-01-01",
+        "type": "normal", // "without_prescription", "prescription", "veterinary"
+        "minimum_age": "6M", // "1M", "36M", "4A", ...
+        "life_after_first_use": "12M", // "7J", "14J", "21J", "1M", ...
+        "ability_to_drive": "",
+        "seen_tv": false,
+        "bio": false,
+        "http_ansm1": "http://...",
+        "http_ansm2": "http://...",
+        "http_other1": "http://...",
+        "http_other2": "http://...",
+        "max_quantity": 0,
+        "weight": 150, // en gramme
+        "volume": "2 ml", // "10 g"
+        "unit": 1,
+        "title_fr": "Fiche produit n°1",
+        "content_fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        "additional_content": [
+            {
+                "title_fr": "Conseil d'utilisation",
+                "content_fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+            }, {
+                "title_fr": "Composition",
+                "content_fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+            }, { }
+        ],
+        "categories": {
+            "nature_product": [ ],
+            "packaging": [ ],
+            "indication": [ ]
+        },
+        "documents": [
+            "https://www.labodata/api/v1/DL_TOKEN/document/FILENAME.EXT",
+            "https://www.labodata/api/v1/DL_TOKEN/document/FILENAME.EXT"
+        ],
+        "retail_price": {
+            "value": 5.50, // Prix public TTC
+            "currency": "EUR",
+            "vat": 20.0
+        },
+        "version": "2015-06-01 13:43:20",
+
+        //"archives": [
+        //    {
+        //        "code": "1234567890123",
+        //        "title_fr": "Ma fiche produit n°1",
+        //        "content_fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        //        "additional_content": [
+        //            { }, { }
+        //        ],
+        //        "version": "2015-01-01 12:00:00"
+        //    },
+        //    { }
+        //]
+    }
+}

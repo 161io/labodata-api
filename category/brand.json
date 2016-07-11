@@ -1,0 +1,21 @@
+{
+    "email": "YOUR@EMAIL",
+    "credit": "999.00",
+    "error": false,
+    "brands": [
+        {
+            "id": 999,
+            "name": "a-derma",
+            "title_fr": "A-Derma",
+            "length": 50
+        }, {
+            "id": 999,
+            "name": "luc-lea",
+            "title_fr": "Luc & Lea",
+            "length": 30
+        },
+        { },
+        { },
+        { }
+    ]
+}

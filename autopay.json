@@ -1,0 +1,6 @@
+{
+    "email": "YOUR@EMAIL",
+    "error": false,
+    "autoconnect": "https://www.labodata.fr/user/autoconnect?token=TOKEN_KEY",
+    "redirect": "https://www.apotekisto.fr/administration?..."
+}

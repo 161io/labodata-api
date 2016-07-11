@@ -1,0 +1,37 @@
+{
+    "email": "YOUR@EMAIL",
+    "credit": "999.00",
+    "error": false,
+    "cost_query": {
+        "content": "1.00",
+        "image": "1.00",
+        "full": "1.50"
+    },
+    "page_number": 1,
+    "page_length": 3,
+    "items_length": 125,
+    "items": [
+        {
+            "id": 999,
+            "code": "1234567890123",
+            "premium": false,
+            "purchase": false,
+            //"purchase": {
+            //    "image": true,
+            //    "content": true,
+            //    "date": "2015-05-10 13:03:50",
+            //},
+            "brand": {
+                "id": 999,
+                "name": "nom-de-la-marque",
+                "title_fr": "Nom de la marque"
+            },
+            "title_fr": "Fiche produit n°1",
+            "content_fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+            "image": "https://www.labodata.fr/api/v1/DL_TOKEN/preview/FILENAME.jpg",
+            "version": "2015-06-01 13:43:20"
+        },
+        { },
+        { }
+    ]
+}
