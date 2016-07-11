@@ -5,7 +5,7 @@ Pour les pharmacies et les parapharmacies en ligne et bien plus encore.
 
 ## Documentation de l'API JSON
 
-L'API utilise des requêtes au format **POST** ou **GET**. L'API ne peut être consulter que par une seule adresse IP serveur.
+L'API utilise des requêtes au format **POST** ou **GET**. L'API ne peut être consulté que par une seule adresse IP serveur.
 
 Chaque requête doit utiliser en paramètre l'adresse `email` du compte et la clé privée `secret` fournie sur le site labodata.fr
 Nous vous déconseillons de faire des appels directement en Javascript (côté client) du fait de la restriction par IP.
@@ -43,7 +43,7 @@ Réponse : Voir le fichier `autoconnect.json`
 
 Cette requête délivre un jeton d'identification permettant de se connecter automatiquement au site LaboData.fr sans passer par le formulaire d'identification.
 Une fois sur le site LaboData, l'utilisateur arrivera sur l'interface de paiement **Approvisionner**.
-En fin de paiement, si le paramètre `redirect` est précisé, l'utilisateur sera redirigé vers cette page ( pensez une utiliser une fonction du type http://php.net/urlencode ).  
+En fin de paiement, si le paramètre `redirect` est précisé, l'utilisateur sera redirigé vers cette page ( pensez à utiliser une fonction du type http://php.net/urlencode ).  
 ```
 https://www.labodata.fr/api/v1/autopay.json?email=YOUR@EMAIL&secret=YOUR_KEY&redirect=https%3A%2F%2Fwww.apotekisto.fr%2Fadministration%3F...
 ```
