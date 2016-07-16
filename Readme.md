@@ -83,7 +83,7 @@ Réponse : Voir le fichier `category/criteria.json`
 ### Rechercher une ou plusieurs fiches produits
 
 Cette requête vous permet de rechercher dans la base de données LaboData. Vous pouvez rechercher par code(s) cip, par marque, ou par texte libre.
-Chaque résultat retournera au maximum **50** éléments. Pour les résultats suivants, vous devez utiliser le paramètre `page`
+Chaque résultat retournera au maximum **50** éléments. Pour les résultats suivants, vous devez utiliser le paramètre `page` (avec un maximum de 50 pages).
 *A noter : les liens images ont une durée de vie d'une heure maximum.*
 
 Requête *(gratuite)* :
