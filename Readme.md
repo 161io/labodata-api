@@ -182,6 +182,7 @@ Structure POST :
 
         title_fr   : "Title"
         content_fr : "<p>Content...</p>"
+        google_category_fr : "Santé et beauté > ... > ..."
         additional_content : [
             [
                 title_fr   : "Title"

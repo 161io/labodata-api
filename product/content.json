@@ -41,6 +41,7 @@
         "unit": 1,
         "title_fr": "Fiche produit n°1",
         "content_fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        "google_category_fr" : "Santé et beauté > ... > ...",
         "additional_content": [
             {
                 "title_fr": "Conseil d'utilisation",
