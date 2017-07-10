@@ -23,6 +23,7 @@
             "...",
             "..."
         ],
+        "cis_code": "61234567",
         "sale_start": "2015-01-02",
         "sale_end": "2018-01-01",
         "type": "normal", // "without_prescription", "prescription", "veterinary"

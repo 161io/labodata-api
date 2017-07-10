@@ -165,6 +165,7 @@ Structure POST :
             "0011122"
             "..."
         ]
+        cis_code             : "61234567"
         minimum_age          : "2M"
         life_after_first_use : "7J"
         ability_to_drive     : "3"
