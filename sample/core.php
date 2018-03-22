@@ -3,7 +3,7 @@
  * LaboData (https://www.labodata.fr/)
  *
  * @link      https://github.com/161io/labodata-api for the canonical source repository
- * @copyright Copyright (c) 2015-2016 161 SARL. (http://161.io)
+ * @copyright Copyright (c) 161 SARL. (https://161.io)
  */
 
 define('LABODATA_AUTH_EMAIL', 'your@email');
@@ -18,7 +18,7 @@ define('LABODATA_AUTH_SECRET', 'your_secret_key');
  */
 function labodataQuery($urlJson, $params = array()) {
     if (!in_array('curl', get_loaded_extensions())) {
-        echo '<p>cURL was not found <a href="http://php.net/manual/en/book.curl.php" target="_blank">http://php.net/manual/en/book.curl.php</a></p>';
+        echo '<p>cURL was not found <a href="https://secure.php.net/manual/en/book.curl.php" target="_blank">https://secure.php.net/manual/en/book.curl.php</a></p>';
         die();
     }
 

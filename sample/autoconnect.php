@@ -3,7 +3,7 @@
  * LaboData (https://www.labodata.fr/)
  *
  * @link      https://github.com/161io/labodata-api for the canonical source repository
- * @copyright Copyright (c) 2015-2016 161 SARL. (http://161.io)
+ * @copyright Copyright (c) 161 SARL. (https://161.io)
  */
 
 require_once 'core.php';
