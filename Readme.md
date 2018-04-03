@@ -92,6 +92,8 @@ https://www.labodata.fr/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_
 https://www.labodata.fr/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&brand=BRAND_NAME
 https://www.labodata.fr/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&q=TEXTE_LIBRE
 https://www.labodata.fr/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &page=1
+https://www.labodata.fr/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=title-asc&page=1
+https://www.labodata.fr/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=date-desc&page=1
 ```
 
 Réponse : Voir le fichier `product/search.json`
