@@ -80,6 +80,20 @@ Réponse : Voir le fichier `category/criteria.json`
 
 
 
+### Liste des arborescences disponibles
+
+Cette requête vous permet d'obtenir l'intégralité des arborescences des fiches produits.
+Ajouter le paramètre `all=1` pour voir les arborescences vides.
+
+Requête *(gratuite)* : 
+```
+https://www.labodata.fr/api/v1/category/tree.json?email=YOUR@EMAIL&secret=YOUR_KEY
+```
+
+Réponse : Voir le fichier `category/tree.json`
+
+
+
 ### Rechercher une ou plusieurs fiches produits
 
 Cette requête vous permet de rechercher dans la base de données LaboData. Vous pouvez rechercher par code(s) cip, par marque, ou par texte libre.

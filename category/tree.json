@@ -1,0 +1,45 @@
+{
+    "email": "YOUR@EMAIL",
+    "credit": "999.00",
+    "error": false,
+    "tree": {
+        "public_categories": {
+            "name": "public_categories",
+            "title_fr": "Parapharmacie",
+            "items": [
+                {
+                    "id": 999,
+                    "name": "rubrique-1",
+                    "title_fr": "Rubrique 1",
+                    "children": [
+                        {
+                            "id": 999,
+                            "name": "sous-rubrique-1",
+                            "title_fr": "Sous-rubrique 1",
+                            "parent_id": 999
+                        },
+                        {
+                            "id": 999,
+                            "name": "sous-rubrique-2",
+                            "title_fr": "Sous-rubrique 2",
+                            "parent_id": 999
+                        },
+                        { },
+                        { }
+                    ]
+                }, {
+                    "id": 999,
+                    "name": "rubrique-2",
+                    "title_fr": "Rubrique 2"
+                },
+                { },
+                { }
+            ]
+        },
+        "medicines_categories": {
+            "name": "medicines_categories ",
+            "title_fr": "Médicaments",
+            "items": [ ]
+        }
+    }
+}
