@@ -28,7 +28,7 @@
             },
             "title_fr": "Fiche produit n°1",
             "content_fr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
-            "image": "https://www.labodata.fr/api/v1/DL_TOKEN/preview/FILENAME.jpg",
+            "image": "https://www.labodata.com/api/v1/DL_TOKEN/preview/FILENAME.jpg",
             "version": "2015-06-01 13:43:20"
         },
         { },

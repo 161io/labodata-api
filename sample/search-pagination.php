@@ -1,6 +1,6 @@
 <?php
 /**
- * LaboData (https://www.labodata.fr/)
+ * LaboData (https://www.labodata.com)
  *
  * @link      https://github.com/161io/labodata-api for the canonical source repository
  * @copyright Copyright (c) 161 SARL. (https://161.io)
@@ -12,7 +12,7 @@ $query = isset($_REQUEST['q']) ? $_REQUEST['q'] : '';
 $page  = (int) (isset($_REQUEST['page']) ? $_REQUEST['page'] : '1');
 $array = array();
 if ($query) {
-    $array = labodataQuery('https://www.labodata.fr/api/v1/product/search.json', array(
+    $array = labodataQuery('https://www.labodata.com/api/v1/product/search.json', array(
         'q'    => $query,
         'page' => $page,
     ));
@@ -26,12 +26,12 @@ if ($query) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>LaboData - La fiche de r&eacute;f&eacute;rence</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 </head>
 <body>
 
     <div class="container">
-        <h1 class="mt-4"><a href="https://www.labodata.fr">LaboData</a> <small class="text-muted">Exemple d&rsquo;utilisation de la recherche</small></h1>
+        <h1 class="mt-4"><a href="https://www.labodata.com">LaboData</a> <small class="text-muted">Exemple d&rsquo;utilisation de la recherche</small></h1>
 
         <form action="search-pagination.php" method="get" class="my-4">
             <div class="input-group">
@@ -65,7 +65,7 @@ if ($query) {
             <tbody>
             <?php foreach ($array['items'] as $item) : ?>
                 <tr>
-                    <td><img src="<?php echo htmlspecialchars($item['image']); ?>" alt="" class="img-fluid mx-auto"></td>
+                    <td><img src="<?php echo htmlspecialchars($item['image']); ?>" alt="Preview" class="img-fluid mx-auto"></td>
                     <td><?php echo htmlspecialchars($item['brand']['title_fr']); ?></td>
                     <td><code><?php echo htmlspecialchars($item['code']); ?></code></td>
                     <td>

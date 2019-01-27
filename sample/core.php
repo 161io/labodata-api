@@ -1,6 +1,6 @@
 <?php
 /**
- * LaboData (https://www.labodata.fr/)
+ * LaboData (https://www.labodata.com)
  *
  * @link      https://github.com/161io/labodata-api for the canonical source repository
  * @copyright Copyright (c) 161 SARL. (https://161.io)
