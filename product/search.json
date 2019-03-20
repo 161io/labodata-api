@@ -15,6 +15,7 @@
             "id": 999,
             "code": "1234567890123",
             "premium": false,
+            "private": false,
             "purchase": false,
             //"purchase": {
             //    "image": true,

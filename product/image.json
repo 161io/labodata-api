@@ -10,6 +10,7 @@
             //"credit": "0.00" // already bought
         },
         "premium": false,
+        "private": false,
         "brand": {
             "id": 999,
             "name": "nom-de-la-marque",
