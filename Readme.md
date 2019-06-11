@@ -171,6 +171,7 @@ Structure POST :
     email   : "YOUR@EMAIL"
     secret  : "YOUR_KEY"
     product : [
+        private              : "0"
         brand_id             : "2"
         sale_start           : "2016-01-01"
         sale_end             : "2020-01-01"
