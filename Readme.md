@@ -108,6 +108,7 @@ https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=title-asc&page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=date-desc&page=1
+https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=id-desc&page=1
 ```
 
 Réponse : Voir le fichier `product/search.json`
