@@ -16,7 +16,7 @@ Nous vous déconseillons de faire des appels directement en Javascript (côté c
 
 Cette requête permet de tester si la connexion est bien établie et la clé privée est correcte. Vous trouverez la clé privée dans votre zone mon compte sur https://www.labodata.com
 
-Requête *(gratuite)* : 
+Requête *(gratuite)* :
 ```
 https://www.labodata.com/api/v1/account.json?email=YOUR@EMAIL&secret=YOUR_KEY
 ```
@@ -28,9 +28,9 @@ Réponse : Voir le fichier `account.json`
 ### Lien de connexion automatique au site LaboData.com sans identification
 
 Cette requête délivre un jeton d'identification permettant de se connecter automatiquement au site LaboData.com sans passer par le formulaire d'identification.
-Important: Ce jeton est à usage unique et à durée de vie de 10 minutes. 
+Important: Ce jeton est à usage unique et à durée de vie de 10 minutes.
 
-Requête *(gratuite)* : 
+Requête *(gratuite)* :
 ```
 https://www.labodata.com/api/v1/autoconnect.json?email=YOUR@EMAIL&secret=YOUR_KEY
 ```
@@ -43,7 +43,7 @@ Réponse : Voir le fichier `autoconnect.json`
 
 Cette requête délivre un jeton d'identification permettant de se connecter automatiquement au site LaboData.com sans passer par le formulaire d'identification.
 Une fois sur le site LaboData, l'utilisateur arrivera sur l'interface de paiement **Approvisionner**.
-En fin de paiement, si le paramètre `redirect` est précisé, l'utilisateur sera redirigé vers cette page ( pensez à utiliser une fonction du type http://php.net/urlencode ).  
+En fin de paiement, si le paramètre `redirect` est précisé, l'utilisateur sera redirigé vers cette page ( pensez à utiliser une fonction du type http://php.net/urlencode ).
 ```
 https://www.labodata.com/api/v1/autopay.json?email=YOUR@EMAIL&secret=YOUR_KEY&redirect=https%3A%2F%2Fwww.apotekisto.fr%2Fadministration%3F...
 ```
@@ -57,7 +57,7 @@ Réponse : Voir le fichier `autopay.json`
 Cette requête vous permet de lister les marques disponibles dans LaboData et le nombre de fiches produits disponibles.
 Ajouter le paramètre `all=1` pour voir les marques vides.
 
-Requête *(gratuite)* : 
+Requête *(gratuite)* :
 ```
 https://www.labodata.com/api/v1/category/brand.json?email=YOUR@EMAIL&secret=YOUR_KEY
 ```
@@ -71,7 +71,7 @@ Réponse : Voir le fichier `category/brand.json`
 Cette requête vous permet d'obtenir l'intégralité de la nomenclature des fiches produits.
 Ajouter le paramètre `all=1` pour voir les critères vides.
 
-Requête *(gratuite)* : 
+Requête *(gratuite)* :
 ```
 https://www.labodata.com/api/v1/category/criteria.json?email=YOUR@EMAIL&secret=YOUR_KEY
 ```
@@ -85,7 +85,7 @@ Réponse : Voir le fichier `category/criteria.json`
 Cette requête vous permet d'obtenir l'intégralité des arborescences des fiches produits.
 Ajouter le paramètre `all=1` pour voir les arborescences vides.
 
-Requête *(gratuite)* : 
+Requête *(gratuite)* :
 ```
 https://www.labodata.com/api/v1/category/tree.json?email=YOUR@EMAIL&secret=YOUR_KEY
 ```
@@ -109,6 +109,7 @@ https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=title-asc&page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=date-desc&page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=id-desc&page=1
+https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=purchase-desc&page=1
 ```
 
 Réponse : Voir le fichier `product/search.json`
