@@ -105,6 +105,9 @@ Requête *(gratuite)* :
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&code=CIP1,CIP2,CIP3...
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&brand=BRAND_NAME
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&q=TEXTE_LIBRE
+https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&type=normal
+https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&type=without_prescription
+https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&type=veterinary
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=title-asc&page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=date-desc&page=1
