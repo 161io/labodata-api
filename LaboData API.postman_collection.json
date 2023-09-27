@@ -1,0 +1,478 @@
+{
+	"info": {
+		"_postman_id": "cf82900c-fc89-4712-b597-bcb97488c7cf",
+		"name": "LaboData API",
+		"description": "[https://www.labodata.com](https://www.labodata.com)\n\n[https://github.com/161io/labodata-api](https://github.com/161io/labodata-api)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29243844"
+	},
+	"item": [
+		{
+			"name": "Free",
+			"item": [
+				{
+					"name": "Account",
+					"item": [
+						{
+							"name": "Information",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.labodata.com/api/v1/account.json?email={{apiEmail}}&secret={{apiSecret}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"labodata",
+										"com"
+									],
+									"path": [
+										"api",
+										"v1",
+										"account.json"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "{{apiEmail}}"
+										},
+										{
+											"key": "secret",
+											"value": "{{apiSecret}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Autoconnect",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.labodata.com/api/v1/autoconnect.json?email={{apiEmail}}&secret={{apiSecret}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"labodata",
+										"com"
+									],
+									"path": [
+										"api",
+										"v1",
+										"autoconnect.json"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "{{apiEmail}}"
+										},
+										{
+											"key": "secret",
+											"value": "{{apiSecret}}"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Autopay",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.labodata.com/api/v1/autopay.json?email={{apiEmail}}&secret={{apiSecret}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"labodata",
+										"com"
+									],
+									"path": [
+										"api",
+										"v1",
+										"autopay.json"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "{{apiEmail}}"
+										},
+										{
+											"key": "secret",
+											"value": "{{apiSecret}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Category",
+					"item": [
+						{
+							"name": "Brand",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.labodata.com/api/v1/category/brand.json?email={{apiEmail}}&secret={{apiSecret}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"labodata",
+										"com"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"brand.json"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "{{apiEmail}}"
+										},
+										{
+											"key": "secret",
+											"value": "{{apiSecret}}"
+										},
+										{
+											"key": "all",
+											"value": "1",
+											"description": "See empty categories",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Criteria",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.labodata.com/api/v1/category/criteria.json?email={{apiEmail}}&secret={{apiSecret}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"labodata",
+										"com"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"criteria.json"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "{{apiEmail}}"
+										},
+										{
+											"key": "secret",
+											"value": "{{apiSecret}}"
+										},
+										{
+											"key": "all",
+											"value": "1",
+											"description": "See empty categories",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Tree",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.labodata.com/api/v1/category/tree.json?email={{apiEmail}}&secret={{apiSecret}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"labodata",
+										"com"
+									],
+									"path": [
+										"api",
+										"v1",
+										"category",
+										"tree.json"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "{{apiEmail}}"
+										},
+										{
+											"key": "secret",
+											"value": "{{apiSecret}}"
+										},
+										{
+											"key": "all",
+											"value": "1",
+											"description": "See empty categories",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Product",
+					"item": [
+						{
+							"name": "Search",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://www.labodata.com/api/v1/product/search.json?email={{apiEmail}}&secret={{apiSecret}}",
+									"protocol": "https",
+									"host": [
+										"www",
+										"labodata",
+										"com"
+									],
+									"path": [
+										"api",
+										"v1",
+										"product",
+										"search.json"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "{{apiEmail}}"
+										},
+										{
+											"key": "secret",
+											"value": "{{apiSecret}}"
+										},
+										{
+											"key": "code",
+											"value": "3577056015113,3401565037420",
+											"description": "EAN13 list",
+											"disabled": true
+										},
+										{
+											"key": "brand",
+											"value": "avene",
+											"description": "See brand.json",
+											"disabled": true
+										},
+										{
+											"key": "type",
+											"value": "veterinary",
+											"description": "normal, without_prescription, or veterinary",
+											"disabled": true
+										},
+										{
+											"key": "purchase",
+											"value": "1",
+											"description": "Search in your library (1) or not purchased (0)",
+											"disabled": true
+										},
+										{
+											"key": "private",
+											"value": "1",
+											"description": "Private (1) or public (0) products only",
+											"disabled": true
+										},
+										{
+											"key": "q",
+											"value": "Creme solaire",
+											"description": "Search keywords",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "2",
+											"description": "Page number",
+											"disabled": true
+										},
+										{
+											"key": "order",
+											"value": "id-desc",
+											"description": "title-asc, date-desc, id-desc, purchase-desc",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			],
+			"description": "Free requests"
+		},
+		{
+			"name": "Paid !!!",
+			"item": [
+				{
+					"name": "Purchase content + image",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.labodata.com/api/v1/product/full.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
+							"protocol": "https",
+							"host": [
+								"www",
+								"labodata",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"full.json"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "{{apiEmail}}"
+								},
+								{
+									"key": "secret",
+									"value": "{{apiSecret}}"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "LaboData ID (see search.json)"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Purchase content only",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.labodata.com/api/v1/product/content.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
+							"protocol": "https",
+							"host": [
+								"www",
+								"labodata",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"content.json"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "{{apiEmail}}"
+								},
+								{
+									"key": "secret",
+									"value": "{{apiSecret}}"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "LaboData ID (see search.json)"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Purchase image only",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.labodata.com/api/v1/product/image.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
+							"protocol": "https",
+							"host": [
+								"www",
+								"labodata",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"product",
+								"image.json"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "{{apiEmail}}"
+								},
+								{
+									"key": "secret",
+									"value": "{{apiSecret}}"
+								},
+								{
+									"key": "id",
+									"value": "",
+									"description": "LaboData ID (see search.json)"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "See [https://www.labodata.com/tarifs](https://www.labodata.com/tarifs)\n\nProducts already purchased are free."
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "apiEmail",
+			"value": "your@email...",
+			"type": "string"
+		},
+		{
+			"key": "apiSecret",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
