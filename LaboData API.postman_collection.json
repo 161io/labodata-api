@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "cf82900c-fc89-4712-b597-bcb97488c7cf",
+		"_postman_id": "02287dab-58fa-402d-bdd2-3a68c75e5989",
 		"name": "LaboData API",
 		"description": "[https://www.labodata.com](https://www.labodata.com)\n\n[https://github.com/161io/labodata-api](https://github.com/161io/labodata-api)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
@@ -19,12 +19,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://www.labodata.com/api/v1/account.json?email={{apiEmail}}&secret={{apiSecret}}",
-									"protocol": "https",
+									"raw": "{{apiServer}}/api/v1/account.json?email={{apiEmail}}&secret={{apiSecret}}",
 									"host": [
-										"www",
-										"labodata",
-										"com"
+										"{{apiServer}}"
 									],
 									"path": [
 										"api",
@@ -51,12 +48,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://www.labodata.com/api/v1/autoconnect.json?email={{apiEmail}}&secret={{apiSecret}}",
-									"protocol": "https",
+									"raw": "{{apiServer}}/api/v1/autoconnect.json?email={{apiEmail}}&secret={{apiSecret}}",
 									"host": [
-										"www",
-										"labodata",
-										"com"
+										"{{apiServer}}"
 									],
 									"path": [
 										"api",
@@ -83,12 +77,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://www.labodata.com/api/v1/autopay.json?email={{apiEmail}}&secret={{apiSecret}}",
-									"protocol": "https",
+									"raw": "{{apiServer}}/api/v1/autopay.json?email={{apiEmail}}&secret={{apiSecret}}",
 									"host": [
-										"www",
-										"labodata",
-										"com"
+										"{{apiServer}}"
 									],
 									"path": [
 										"api",
@@ -120,12 +111,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://www.labodata.com/api/v1/category/brand.json?email={{apiEmail}}&secret={{apiSecret}}",
-									"protocol": "https",
+									"raw": "{{apiServer}}/api/v1/category/brand.json?email={{apiEmail}}&secret={{apiSecret}}",
 									"host": [
-										"www",
-										"labodata",
-										"com"
+										"{{apiServer}}"
 									],
 									"path": [
 										"api",
@@ -159,12 +147,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://www.labodata.com/api/v1/category/criteria.json?email={{apiEmail}}&secret={{apiSecret}}",
-									"protocol": "https",
+									"raw": "{{apiServer}}/api/v1/category/criteria.json?email={{apiEmail}}&secret={{apiSecret}}",
 									"host": [
-										"www",
-										"labodata",
-										"com"
+										"{{apiServer}}"
 									],
 									"path": [
 										"api",
@@ -198,12 +183,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://www.labodata.com/api/v1/category/tree.json?email={{apiEmail}}&secret={{apiSecret}}",
-									"protocol": "https",
+									"raw": "{{apiServer}}/api/v1/category/tree.json?email={{apiEmail}}&secret={{apiSecret}}",
 									"host": [
-										"www",
-										"labodata",
-										"com"
+										"{{apiServer}}"
 									],
 									"path": [
 										"api",
@@ -242,12 +224,9 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://www.labodata.com/api/v1/product/search.json?email={{apiEmail}}&secret={{apiSecret}}",
-									"protocol": "https",
+									"raw": "{{apiServer}}/api/v1/product/search.json?email={{apiEmail}}&secret={{apiSecret}}",
 									"host": [
-										"www",
-										"labodata",
-										"com"
+										"{{apiServer}}"
 									],
 									"path": [
 										"api",
@@ -331,12 +310,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://www.labodata.com/api/v1/product/full.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
-							"protocol": "https",
+							"raw": "{{apiServer}}/api/v1/product/full.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
 							"host": [
-								"www",
-								"labodata",
-								"com"
+								"{{apiServer}}"
 							],
 							"path": [
 								"api",
@@ -369,12 +345,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://www.labodata.com/api/v1/product/content.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
-							"protocol": "https",
+							"raw": "{{apiServer}}/api/v1/product/content.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
 							"host": [
-								"www",
-								"labodata",
-								"com"
+								"{{apiServer}}"
 							],
 							"path": [
 								"api",
@@ -407,12 +380,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://www.labodata.com/api/v1/product/image.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
-							"protocol": "https",
+							"raw": "{{apiServer}}/api/v1/product/image.json?email={{apiEmail}}&secret={{apiSecret}}&id=",
 							"host": [
-								"www",
-								"labodata",
-								"com"
+								"{{apiServer}}"
 							],
 							"path": [
 								"api",
@@ -464,6 +434,11 @@
 		}
 	],
 	"variable": [
+		{
+			"key": "apiServer",
+			"value": "https://www.labodata.com",
+			"type": "string"
+		},
 		{
 			"key": "apiEmail",
 			"value": "your@email...",
