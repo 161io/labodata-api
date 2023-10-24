@@ -109,6 +109,7 @@ https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&type=without_prescription
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY&type=veterinary
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &page=1
+https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &sinceUpdate=2023-01-01&page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=title-asc&page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=date-desc&page=1
 https://www.labodata.com/api/v1/product/search.json?email=YOUR@EMAIL&secret=YOUR_KEY& ... &order=id-desc&page=1
