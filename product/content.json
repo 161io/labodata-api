@@ -27,7 +27,7 @@
         "cis_code": "61234567",
         "sale_start": "2015-01-02",
         "sale_end": "2018-01-01",
-        "type": "normal", // "without_prescription", "prescription", "veterinary"
+        "type": "normal", // "without_prescription", "prescription", "veterinary", "veterinary_without_rx", "veterinary_rx"
         "minimum_age": "6M", // "1M", "36M", "4A", ...
         "life_after_first_use": "12M", // "7J", "14J", "21J", "1M", ...
         "ability_to_drive": "",
